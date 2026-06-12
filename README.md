@@ -568,16 +568,6 @@ python3 tools/parse_serving_outputs.py \
 The tracked paper-ready chunked figures and summaries live in
 `results/serving_chunked_rps4/`.
 
-### Paper Rebuild
-
-After refreshing any paper table or figure source, rebuild the visible PDF from
-the paper directory:
-
-```bash
-cd paper
-latexmk -g -pdf -interaction=nonstopmode -halt-on-error astrasim_paper.tex
-```
-
 ## Tests
 Run the full regression suite with:
 
